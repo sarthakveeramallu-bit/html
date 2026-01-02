@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="veiwport" content="width=device-width"
+        <title>replit</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Personal Details Form</h1>
+        <form>
+            <label>Name</label><br>
+            <input type="text" id="name"><br><br>
+            <label>Email ID</label><br>
+            <input type="text" id="Email"><br><br>
+            <label>Contact Number(This will be Hidden)</label><br>
+            <input type="password" id="contact"><br><br>
+            <label>Gender</label>
+            <input type="radio" id="female" name="gender" value="female">Female<br>
+            <input type="radio" id="male" name="gender" value="male">Male<br><br>
+            <label>Favorite City</label><br>
+            <input type="checkbox" id="City" value="New delhi">New Dehli<br>
+            <input type="checkbox" id="City" value="Mumbai">Mumbai<br>
+        </form>
+    </body>
+</html>
