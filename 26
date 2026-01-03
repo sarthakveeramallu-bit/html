@@ -1,0 +1,37 @@
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="veiwport" content="width=device-width", initial-sacle="1.0"
+         <title>CSS Styling Examples</title>
+         <! -- Internal CSS -->
+         <style>
+            h2{
+                colour:green;
+            }
+            </style>
+            <! -- External CSS>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <hr>
+            <! -- Inline CSS-->
+            <h1 style="colour:red">this is inline css</h1>
+            <h2>internal css</h2>
+            <h3>external css</h3>
+            <hr>
+            <h4>Element Selector Example</h4>
+            <h4>Element Selector Example</h4>
+            <hr>
+
+            <! --class and id selector Example>
+            <h2 class="myclass">Class Selector Example</h2>
+            <h2 id="myid">ID Selector Example</h2>
+            <h2 class="myclass">CLass Selector Example</h2>
+            <hr>
+
+            <! --Group Selector example -->
+            <h5>Group Selector Example</h5>
+            <p>Group Selector Example</h5>
+                <hr>
+            </body>
+            </html>
