@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<title>Dom Example</title>
+<style>
+    h1{
+        color:blue ;
+    }
+    button{
+        padding: 10px;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+    </head>
+    <body>
+        <h1 id="heading">Hello studeent</h1>
+        <button onclick="changetext()">Click Me</button>
+
+        <script>
+            function changetext() {
+                let element = document.getElementById('heading');
+                element.innerHTML = "Text changed";
+                element.style.color = "red";
+            }
+        </script>
+    </body>
+</html> 
+               
